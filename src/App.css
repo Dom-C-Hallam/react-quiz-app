@@ -1,38 +1,52 @@
-.App {
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: 'Star Jedi', sans-serif; /* A Star Wars-style font */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.app-container {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  color: #f2d900; /* Star Wars yellow */
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.question-container {
+  margin-top: 50px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h2 {
+  font-size: 2rem;
 }
 
-.App-link {
-  color: #61dafb;
+.options button {
+  background-color: #222;
+  color: #fff;
+  border: none;
+  padding: 15px 30px;
+  margin: 10px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: all 0.3s ease;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.options button:hover {
+  background-color: #f2d900;
+  color: #000;
+}
+
+.score-container {
+  margin-top: 50px;
+  font-size: 1.5rem;
 }
