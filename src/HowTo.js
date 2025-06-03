@@ -3,7 +3,7 @@ import React from 'react';
 const HowTo = () => {
   return (
     <div>
-      <h1>How to Use the Star Wars Quiz</h1>
+      <h1>How to Play the Star Wars Quiz</h1>
       <ul>
         <li>Read each question carefully.</li>
         <li>Select the answer you believe is correct.</li>

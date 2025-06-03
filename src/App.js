@@ -27,9 +27,9 @@ const questions = [
     correctAnswer: "The 501st",
   },
   {
-    question: "What is the name of Han Solo's ship?",
-    options: ["Millennium Falcon", "TIE Fighter", "X-Wing", "Slave I"],
-    correctAnswer: "Millennium Falcon",
+    question: "Which planet did Princess Leia grow up on?",
+    options: ["Endor", "Hoth", "Tatooine", "Alderaan"],
+    correctAnswer: "Alderaan",
   },
 ];
 

@@ -1,13 +1,17 @@
 body {
   background-color: #000;
   color: #fff;
-  font-family: 'Star Jedi', sans-serif; /* A Star Wars-style font */
+  font-family: sans-serif; 
   margin: 0;
   padding: 0;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
+}
+
+link {
+  color: #fff;
 }
 
 .app-container {
@@ -17,19 +21,19 @@ body {
 h1 {
   font-size: 3rem;
   text-transform: uppercase;
-  color: #f2d900; /* Star Wars yellow */
+  color: #f2d900; 
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
 }
 
-.question-container {
+/*.question-container {
   margin-top: 50px;
-}
+}*/
 
 h2 {
   font-size: 2rem;
 }
 
-.options button {
+button {
   background-color: #222;
   color: #fff;
   border: none;
@@ -41,7 +45,7 @@ h2 {
   transition: all 0.3s ease;
 }
 
-.options button:hover {
+ button:hover {
   background-color: #f2d900;
   color: #000;
 }
@@ -49,4 +53,21 @@ h2 {
 .score-container {
   margin-top: 50px;
   font-size: 1.5rem;
+}
+
+li {
+  list-style-type: none;
+}
+
+
+/* Responsive layout: vertical buttons on small screens */
+@media (max-width: 425px) {
+  button {
+    flex-direction: column;
+    align-items: stretch; /* makes buttons fill container width */
+  }
+
+  button {
+    width: 100%; /* make each button take full width of its container */
+  }
 }
