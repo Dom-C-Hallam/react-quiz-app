@@ -35,7 +35,7 @@ A simple, interactive quiz application built with React. This project demonstrat
 
 MIT License
 
-Copyright (c) [year] [fullname]
+Copyright (c) 2025 Dominic Hallam
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
