@@ -10,9 +10,7 @@ body {
   height: 100vh;
 }
 
-link {
-  color: #fff;
-}
+
 
 .app-container {
   text-align: center;
@@ -24,10 +22,6 @@ h1 {
   color: #f2d900; 
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
 }
-
-/*.question-container {
-  margin-top: 50px;
-}*/
 
 h2 {
   font-size: 2rem;
@@ -60,14 +54,14 @@ li {
 }
 
 
-/* Responsive layout: vertical buttons on small screens */
+
 @media (max-width: 425px) {
   button {
     flex-direction: column;
-    align-items: stretch; /* makes buttons fill container width */
+    align-items: stretch; 
   }
 
   button {
-    width: 100%; /* make each button take full width of its container */
+    width: 100%; 
   }
 }

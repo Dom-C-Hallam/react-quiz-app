@@ -1,5 +1,6 @@
 import React from 'react';
 
+// Component to display the final score after quiz completion
 const Score = ({ score, totalQuestions }) => {
   return (
     <div className="score-container">

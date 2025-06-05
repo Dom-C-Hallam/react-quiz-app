@@ -1,5 +1,5 @@
 import React from 'react';
-
+// This is the instruction page that tells the user how to use the app
 const HowTo = () => {
   return (
     <div>

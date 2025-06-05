@@ -5,6 +5,7 @@ import Question from './Question';
 import Score from './Score';
 import HowTo from './HowTo';
 
+// Set list of quiz questions and answers
 const questions = [
   {
     question: "Who is Luke Skywalker's father?",
@@ -34,15 +35,21 @@ const questions = [
 ];
 
 const App = () => {
+  // Tracks current question index
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
+  // Tracks the users score
   const [score, setScore] = useState(0);
+  // Flag to check if quiz is completed
   const [quizCompleted, setQuizCompleted] = useState(false);
 
+  // Handles logic when an answer is selected
   const handleAnswer = (selectedOption) => {
+    // Increase score if correct answer selected
     if (selectedOption === questions[currentQuestionIndex].correctAnswer) {
       setScore(score + 1);
     }
 
+    // Move to next question or finish quiz
     if (currentQuestionIndex + 1 < questions.length) {
       setCurrentQuestionIndex(currentQuestionIndex + 1);
     } else {
@@ -50,6 +57,7 @@ const App = () => {
     }
   };
 
+  // Resets quiz state to start over
   const resetQuiz = () => {
     setCurrentQuestionIndex(0);
     setScore(0);
@@ -72,13 +80,13 @@ const App = () => {
     element={
       <>
         <h1>Star Wars Quiz</h1>
-        {quizCompleted ? (
+        {quizCompleted ? ( 
           <div>
             <Score score={score} totalQuestions={questions.length} />
             <button onClick={resetQuiz}>Restart Quiz</button>
-          </div>
+          </div> // Show final score and restart button if quiz is completed
         ) : (
-          <Question
+          <Question // Show current question 
             question={questions[currentQuestionIndex].question}
             options={questions[currentQuestionIndex].options}
             onAnswer={handleAnswer}
