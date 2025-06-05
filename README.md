@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+# React Quiz App: Star Wars
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple, interactive quiz application built with React. This project demonstrates the use of React components, routing, and state management through a themed quiz experience.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- Multiple-choice quiz
+- Score tracking and final results
+- Ability to restart quiz
+- NavBar that allows you to switch between the Quiz and instructions.
 
-### `npm start`
+## How to:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Once you have started the quiz (in my case using npm start) you will be brought to the following page:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### How to Page:
 
-### `npm test`
+![how_to_page](https://github.com/user-attachments/assets/bcc6094c-77b2-4a42-a80f-6714d9764f3e)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- You can see the instructions on how to use this simple quiz here, there is a navigation bar that will allow you to switch between this page and the questions at any time.
 
-### `npm run build`
+### Question Pages:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![quiz_question](https://github.com/user-attachments/assets/fc2ec515-ea2f-4a7e-b6a3-6cbf6e4c747c)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- As you select your answer it will move to the next question so ensure you know which one you are clicking! The buttons will change colour as you hover over them just to give you a visual cue.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Results Page:
 
-### `npm run eject`
+![Screenshot 2025-06-05 194017](https://github.com/user-attachments/assets/01d98fc4-be87-481d-bc3c-0731bb9f9716)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- This page shows your final score, you can retake the quiz if you didn't get 100% until you do. There is no limit, or time etc. Just keep going!
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Licence: MIT
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+MIT License
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Copyright (c) [year] [fullname]
 
-## Learn More
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
-### Code Splitting
+## Contact:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Feel free to reach out or contribute!
+- dominic.hallam.code@gmail.com
